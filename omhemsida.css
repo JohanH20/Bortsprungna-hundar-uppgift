@@ -1,0 +1,28 @@
+.Header{
+    Background-color:grey;
+    border-radius:1em;
+    padding:4px;
+}
+h1{
+    color:white;
+    text-align:center;
+}
+.meny{
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+.meny div{
+    text-align:center;
+    border-radius:1em;
+    background-color:black;
+    padding:10px;
+}
+.meny div:hover{
+    background-color:grey;
+    color:white;
+}
+.meny a{
+    display:block;
+    color:white;
+    text-decoration:none;
+}
