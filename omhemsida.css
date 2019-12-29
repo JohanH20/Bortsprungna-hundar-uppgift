@@ -1,10 +1,8 @@
 .Header{
-    Background-color:grey;
-    border-radius:1em;
+    Background:url("https://live.staticflickr.com/1595/24734065265_43a00243ec_b.jpg");
+	background-position:center;
     padding:4px;
-}
-h1{
-    color:white;
+	color:rgb(255,255,255);
     text-align:center;
 }
 .meny{
@@ -13,16 +11,15 @@ h1{
 }
 .meny div{
     text-align:center;
-    border-radius:1em;
-    background-color:black;
+    background-color:rgb(0,0,0);
     padding:10px;
 }
 .meny div:hover{
-    background-color:grey;
-    color:white;
+    background-color:rgb(130,130,130);
+    color:rgb(255,255,255);
 }
 .meny a{
     display:block;
-    color:white;
+    color:rgb(255,255,255);
     text-decoration:none;
 }
