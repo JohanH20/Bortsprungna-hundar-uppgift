@@ -1,0 +1,74 @@
+.Header{
+    Background:url("https://live.staticflickr.com/1595/24734065265_43a00243ec_b.jpg");
+	background-position:center;
+    padding:4px;
+	color:rgb(255,255,255);
+    text-align:center;
+	grid-area: head;
+}
+.meny{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-area: nav;
+}
+.meny div{
+    text-align:center;
+    background-color:rgb(0,0,0);
+    padding:10px;
+}
+.meny div:hover{
+    background-color:rgb(130,130,130);
+    color:rgb(255,255,255);
+}
+.meny a{
+    display:block;
+    color:rgb(255,255,255);
+    text-decoration:none;
+}
+.lokalmeny{
+	grid-area: lokal;
+}
+.lokalmeny div{
+	text-align: center;
+	background-color:rgb(0,0,0);
+	padding: 5px;
+}
+.lokalmeny a{
+	display:block;
+	color:rgb(255,255,255);
+	text-decoration:none;
+}
+.lokalmeny div:hover{
+	background-color:rgb(130,130,130);
+	color:rgb(255,255,255);
+}
+.OmHemsidan{
+	grid-area:hemsida;
+}
+.OmDavid{
+	grid-area:david;
+	display:grid;
+	grid-template-columns:2fr 1fr;
+}
+.wrapperOmhemsidan{
+	display:grid;
+	grid-template-columns:0.5fr 1fr 1fr 1fr;
+	grid-template-areas:
+	"head head head head"
+	"nav nav nav nav"
+	"lokal hemsida hemsida hemsida";
+	grid-gap:2px;
+}
+.wrapperOmDavid{
+	display:grid;
+	grid-template-columns:0.5fr 1fr 1fr 1fr;
+	grid-template-areas:
+	"head head head head"
+	"nav nav nav nav"
+	"lokal david david david";
+	grid-gap:2px;
+}
+.OmDavid img{
+	width:100%;
+	border-radius:2em;
+}
