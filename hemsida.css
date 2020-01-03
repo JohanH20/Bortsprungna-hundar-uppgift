@@ -45,32 +45,51 @@
 }
 .OmHemsidan{
 	grid-area:hemsida;
+	display:grid;
+	grid-template-columns:2fr 1.5fr;
 }
 .OmDavid{
 	grid-area:david;
 	display:grid;
 	grid-template-columns:2fr 1fr;
 }
-.wrapperOmhemsidan{
+.wrapperOmDavid,.wrapperOmhemsidan{
 	display:grid;
 	grid-template-columns:0.5fr 1fr 1fr 1fr;
+	grid-gap:2px;
+}
+.wrapperOmhemsidan{
 	grid-template-areas:
 	"head head head head"
 	"nav nav nav nav"
 	"lokal hemsida hemsida hemsida";
-	grid-gap:2px;
 }
 .wrapperOmDavid{
-	display:grid;
-	grid-template-columns:0.5fr 1fr 1fr 1fr;
 	grid-template-areas:
 	"head head head head"
 	"nav nav nav nav"
 	"lokal david david david";
-	grid-gap:2px;
 }
 .OmDavid img{
 	width:100%;
 	border-radius:2em;
+}
+p[target="bildtext"]{
+	background-color:rgb(170,170,170);
+	border-style:solid;
+	border-width:1px;
+	border-radius:2rem;
+	text-align:center;
+}
+.textomdavid p:first-letter{
+	font-size:1.5em;
+}
+h2,h3,h4,h5{
+	font-size:1.5pc;
+}
+img[target="bildhund"]{
+	width:100%;
+	border:solid;
+	border-radius:1em;
 }
 /*Johans del slutar*/
