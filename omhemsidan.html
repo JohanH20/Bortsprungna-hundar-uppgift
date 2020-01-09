@@ -1,39 +1,69 @@
 <!--Johans sida-->
+<!--Visar att html används-->
 <!DOCTYPE html>
+<!--Visar att efter detta kommer html taggar och gör så att språket till svenska-->
 <html lang="sv">
+    <!--Här startar head och att det som befinner sig i head inte ska visas på sidan-->
     <head>
+        <!--Gör så man anvnder karaktär-setet utf-8 så att alla tecken fungerar-->
         <meta charset="utf-8">
+        <!--Gör så att man använder en extern css-->
         <link href="hemsida.css" rel="Stylesheet">
+        <!--Ger sidan en title-->
         <title>Om hemsida</title>
+    <!--Avslutar head-->
     </head>
+    <!--Här börjar body och allt ska visas på sidan-->
     <body>
+        <!--Gör en div som är en wrapper till hemsidan och gör så den är i en klass som heter wrapperOmHemsidan-->
 		<div class="wrapperOmhemsidan">
+            <!--Här startar en header till hemsidan som är högst upp i sidan-->
 			<header>
+                <!--Gör huvudrubriken som är i headern-->
 				<h1>Om hemsidan</h1>
+            <!--Avslutar header-->
 			</header>
+            <!--Här startar nav som är i klassen meny som är en globalmeny taggarna som är mellan denna och sin sluttagg är i nav-->
 			<nav class="meny">
+                <!--gör en div och skapar en länk i den som leder till startsidan-->
 				<div><a href="index.html">Startsida</a></div>
 				<div><a href="bortsprungnadjur.html">Bortsprunga djur</a></div>
 				<div><a href="omhemsidan.html">Om hemsidan</a></div>
+            <!--Här slutar nav-->
 			</nav>
+            <!--Här startar en ny nav som är av klassen lokalmeny-->
 			<nav class="lokalmeny">
+                <!--Gör en div och skapar en länk i den som leder till OmDavid.html-->
 				<div><a href="OmDavid.html">David Wernow</a></div>
 				<div><a href="omhemsidan.html">Om hemsidan</a></div>
+            <!--Här slutar nav lokalmeny-->
 			</nav>
+            <!--Gör en main som är klassen OmHemsidan-->
 			<main class="OmHemsidan">
+                <!--Gör en div som är i klassen textomhemsidan-->
 				<div class="textomhemsidan">
+                    <!--Gör en underrubrik och stänger den-->
 					<h2>Information om hemsidan</h2>
-					<p>Hej detta är vår hemsida och den är gjord för att hjälpa andra att hitta sina bortsprunga djur.<br/> Om ni har ett bortsprunget djur, eller har hittat ett skicka in informationen till vår mail: bortsprungnadjur@gmail.com</p>
+                    <!--Gör en text och stänger den-->
+					<p>Hej detta är vår hemsida och den är gjord för att hjälpa andra att hitta sina bortsprunga djur.<br/> Om ni har ett                                    bortsprunget djur, eller har hittat ett skicka in informationen till vår mail: bortsprungnadjur@gmail.com</p>
+                    <!--Här börjar en tabell som är i klassen typerhundar-->
 					<table class="typerhundar">
+                        <!--Gör en rubrik till den och stänger den-->
 						<caption>Olika typer av hundar</caption>
+                        <!--Deklarerar att här är första raden av tabellen som är headen i tabellen-->
 						<thead>
+                            <!--Gör en ny rad i tabellen-->
 							<tr>
+                                <!--Gör en ny head-kolumn i den nya raden-->
 								<th>Familjehundar</th>
 								<th>Jakthundar</th>
 								<th>Draghundar</th>
 								<th>Brukshundar</th>
+                            <!--Avslutar raden-->
 							</tr>
+                        <!--stänger tabell headen-->
 						</thead>
+                        <!--Deklarerar att bodyn i tabellen börjar-->
 						<tbody>
 							<tr>
 								<td>Mops</td>
@@ -53,13 +83,21 @@
 								<td>Siberian Husky</td>
 								<td>Boxer</td>
 							</tr>
+                        <!--Stänger tabell bodyn-->
 						</tbody>
+                    <!--Stänger tabellen-->
 					</table>
+                <!--Stänger textomhemsidan diven-->
 				</div>
 				<div>
-					<img target="bildhund" src="https://www.olivers-petfood.se/media/magpleasure/mpblog/list_thumbnail_file/7/c/cache/2/ece9a24a761836a70934a998c163f8c8/7c8d901a3fa9f2f383119616181e8080.png" alt="Bild på en hund">
+                    <!--Gör en bild som har attributen "alt = bild på en hund"-->
+					<img src="https://www.olivers-petfood.se/media/magpleasure/mpblog/list_thumbnail_file/7/c/cache/2/ece9a24a761836a70934a998c163f8c8/7c8d901a3fa9f2f383119616181e8080.png" alt="Bild på en hund">
 				</div>
+            <!--Stänger main-->
 			</main>
+        <!--stänger wrappern-->
 		</div>
+    <!--Stänger bodyn-->
     </body>
+<!--Stänger html taggen-->
 </html>
