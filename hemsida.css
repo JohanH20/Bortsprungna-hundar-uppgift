@@ -184,3 +184,53 @@ tbody tr:nth-child(odd){
 	background-color:rgb(150,150,150);
 }
 /*Johans del slutar*/
+
+/*Kemals del börjar*/
+           /*Klass för struktur på text*/
+.grid-container {
+ display: grid;
+ grid-template-columns: auto auto auto;
+ background-color: black;
+}
+           /*Klass för texten*/
+.grid-item > p{
+ color:white;
+ padding:20px;
+ font-size:30px; 
+ text-align:center;
+}
+           /*Klassen för struktur på globala menyn*/
+.grid-container2{
+ display: grid;
+ grid-template-columns:auto auto auto;
+ background-color:grey;
+}
+/*Kemals del slutar*/
+
+/*Filips del börjar*/
+    /*Klassen för strukturen på texten*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:black;
+ 
+    /*Klassen för texten*/
+}
+.grid-item {
+  color:white;
+  padding: 20px;
+  font-size: 19px;
+  text-align: center;
+}
+    /* Klassen för globala menyn för att få avstånd mellan dem*/
+.grid-container2{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  background-color:grey;
+}
+    /*För att centrera globala menyn*/
+body {
+    text-align:center;
+
+}
+/*Filips del slutar*/
