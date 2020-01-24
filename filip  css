@@ -1,0 +1,34 @@
+           
+    /*Klassen för globala menyn*/
+nav{
+	background-color:b;
+	font-size:30px;
+	color:white;
+	font-family:arial;
+	display:block;
+}
+    /*Klassen för strukturen på texten*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:black;
+ 
+    /*Klassen för texten*/
+}
+.grid-item {
+  color:white;
+  padding: 20px;
+  font-size: 19px;
+  text-align: center;
+}
+    /* Klassen för globala menyn för att få avstånd mellan dem*/
+.grid-container2{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  background-color:grey;
+}
+    /*För att centrera globala menyn*/
+body {
+    text-align:center;
+
+}
