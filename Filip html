@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!--Titlen-->
+		<title>Startsida</title>
+		<!--Länk till css-->
+		<link href="Index.css" rel="stylesheet">
+	</head>
+	<body>              <!--Globala menyn -->
+			<nav class="grid-container2">
+				<div><a href="index.html">Startsida</a></div>
+				<div><a href="bortsprungnadjur.html">Bortsprunga djur</a></div>
+				<div><a href="omhemsidan.html">Om hemsidan</a></div>
+			</nav>
+			                                <!--Texten till hemsidan-->
+		<div class="grid-container">
+		<div class="grid-item">Välkommen till hemsidan för bortsprungna djur. Här kan du lägga upp bilder på dina bortsprunga djur. Längst upp finns en meny som hjälper dig runt. </div>
+		</div>
+		<div class="grid-container">
+		<div class="grid-item">Vi skapade denna hemsidan för att hjälpa er hitta era bortsprunga djur, vi tycker att ingen skall förlora en trogen vän, skicka ett mail till oss för att lägga upp en bild.</div>
+		</div>
+		<div class="grid-container">
+		                                           <!--Bilderna-->
+		<img src="https://www.harligahund.se/wp-content/uploads/2018/12/GettyImages-935542268-657x438.jpg"alt="Hund" class="hund" width="447" height="400">	
+		<img src="https://www.rover.com/blog/wp-content/uploads/2016/04/dog-606281_1920-1.jpg"alt="Hund" class="hund1" width="447" height="400">
+		<img src="https://www.rover.com/blog/wp-content/uploads/2016/04/dog-1205020_1280-1.jpg" alt="Hund" class="hund2" width="447" height="400">			
+	    </div>
+	</body>
+</html>
